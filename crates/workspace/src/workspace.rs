@@ -187,6 +187,7 @@ actions!(
         ToggleZoom,
         Unfollow,
         Welcome,
+        Walkthrough,
         RestoreBanner,
     ]
 );
