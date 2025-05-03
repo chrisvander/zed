@@ -69,6 +69,7 @@ pub struct LanguageModelCacheConfiguration {
 pub enum CompletionRequestStatus {
     Queued { position: usize },
     Started,
+    ToolUseLimitReached,
     Error { code: String, message: String },
 }
 
